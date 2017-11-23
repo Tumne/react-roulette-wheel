@@ -1,8 +1,8 @@
 {
-  "name": "roulette-wheel-example",
+  "name": "react-roulette-wheel",
   "version": "0.1.0",
   "private": false,
-  "main": "Roulette.js",
+  "main": "src/Roulette.js",
   "dependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.1.1",
