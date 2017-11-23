@@ -1,7 +1,7 @@
 {
   "name": "roullette-wheel-example",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "Roulette.js",
   "dependencies": {
     "prop-types": "^15.6.0",
