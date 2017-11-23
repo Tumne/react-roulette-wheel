@@ -3,11 +3,9 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .roulette-container {
   display: flex;
   justify-content: center;
   padding: 5px;
-}
-.roulette-canvas {
-  background: pink;
 }

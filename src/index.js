@@ -4,5 +4,17 @@ import './index.css';
 import Roulette from './Roulette';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Roulette />, document.getElementById('root'));
+const handleOnComplete = (value) => {
+  console.log(value);
+};
+
+const options = [
+  "war",
+  "pain",
+  "words",
+  "love",
+  "life",
+];
+
+ReactDOM.render(<Roulette options={options} baseSize={300} onComplete={handleOnComplete}/>, document.getElementById('root'));
 registerServiceWorker();
