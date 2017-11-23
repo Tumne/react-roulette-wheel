@@ -2,7 +2,9 @@
   "name": "roullette-wheel-example",
   "version": "0.1.0",
   "private": true,
+  "main": "Roulette.js",
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17"
