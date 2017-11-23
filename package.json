@@ -4,7 +4,6 @@
   "private": false,
   "main": "src/Roulette.js",
   "dependencies": {
-    "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17"
@@ -14,5 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.0"
   }
 }
