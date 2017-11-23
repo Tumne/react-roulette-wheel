@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import './Roulette.css';
 
@@ -18,15 +17,6 @@ class Roulette extends React.Component {
     this.spin = this.spin.bind(this);
     this.rotate = this.rotate.bind(this);
   }
-
-  static propTypes = {
-    className: PropTypes.string,
-    options: PropTypes.array,
-    baseSize: PropTypes.number,
-    spinAngleStart: PropTypes.number,
-    spinTimeTotal: PropTypes.number,
-    onComplete: PropTypes.func,
-  };
 
   static defaultProps = {
     options:  ['item1', 'item2', 'item3', 'item4', 'item5'],
